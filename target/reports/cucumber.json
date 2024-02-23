@@ -1,0 +1,234 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-02-22T21:41:31.002Z",
+        "line": 3,
+        "name": "User should be able to login with valid credentials",
+        "description": "",
+        "id": "codefios-page-login-functionality-validation-page;user-should-be-able-to-login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2301553000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the codefios login page",
+            "match": {
+              "location": "steps.LoginStepDefinition.user_is_on_the_codefios_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3141261200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters username as \"demo1@codefios.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"demo1@codefios.com\"",
+                  "offset": 24
+                }
+              ],
+              "location": "steps.LoginStepDefinition.user_enters_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3063780800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters password as \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abc123\"",
+                  "offset": 24
+                }
+              ],
+              "location": "steps.LoginStepDefinition.user_enters_password_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11177087900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on sign in button",
+            "match": {
+              "location": "steps.LoginStepDefinition.user_clicks_on_sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2004100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User is on the dashboard page",
+            "match": {
+              "location": "steps.DashboardSteps.user_is_on_the_dashboard_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1768773400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on List Accounts",
+            "match": {
+              "location": "steps.DashboardSteps.user_clicks_on_List_Accounts()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User is on the account list page",
+            "match": {
+              "location": "steps.AccountStep.user_is_on_account_list_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3054932500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user clicks on add account button",
+            "match": {
+              "location": "steps.AccountStep.the_user_clicks_on_add_account_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3085673600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user enters account name as \"Agam Sahni\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Agam Sahni\"",
+                  "offset": 32
+                }
+              ],
+              "location": "steps.AccountStep.the_user_enters_account_name_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3071065500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user enters description as \"TechFios\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"TechFios\"",
+                  "offset": 31
+                }
+              ],
+              "location": "steps.AccountStep.the_user_enters_description_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3074255900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the user enters initial balance as \"50\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"50\"",
+                  "offset": 35
+                }
+              ],
+              "location": "steps.AccountStep.the_user_enters_intial_balance_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3076826300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the user enters account number as \"34589\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"34589\"",
+                  "offset": 34
+                }
+              ],
+              "location": "steps.AccountStep.the_user_enters_account_number_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3062862300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user enters contact person as \"SRK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SRK\"",
+                  "offset": 34
+                }
+              ],
+              "location": "steps.AccountStep.the_user_enters_contact_person_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3068875300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the user clicks the save button",
+            "match": {
+              "location": "steps.AccountStep.the_user_clicks_the_save_button()"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Codefios page login functionality validation Page",
+    "description": "",
+    "id": "codefios-page-login-functionality-validation-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature/Accounts.feature",
+    "tags": []
+  }
+]
