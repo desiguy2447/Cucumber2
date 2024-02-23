@@ -17,6 +17,6 @@ Feature: Codefios page login functionality validation Page
   When the user enters account number as "34589"
   When the user enters contact person as "SRK"
   When the user clicks the save button
-  
+  Then User should be able to see account added alert
  
   
