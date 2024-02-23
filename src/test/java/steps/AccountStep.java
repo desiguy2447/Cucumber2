@@ -50,5 +50,11 @@ public class AccountStep extends TestBase {
   public void the_user_clicks_the_save_button() {
 	  accountpage.clicksavebutton();
   }
-  
+  @Then ("User should be able to see account added alert")
+  public void User_should_be_able_to_see_account_added_alert() {
+  String actualText = accountpage.getAccountAddedSuccessAlertText();
+  String expectedText = "Account Added Successfully.";
+Assert.assertEquals("Success Alert is not matching", expectedText, actualText);
+
+}
 }
