@@ -29,6 +29,8 @@ public class AccountPage {
 	WebElement CONTACTPERSON_ELEMENT;
 	@FindBy(how = How.XPATH, using = "//button[@id='accountSave']")
 	WebElement SAVEBUTTON_ELEMENT;
+	@FindBy(how = How.XPATH, using = "//div[contains(text(),'Account Added Successfully.')]")
+	WebElement ACCOUNT_ADDED_SUCCESS_ALERT_ELEMENT;
 	
 	public void ClickAddAccount() {
 		ADDCUSTOMER_ELEMENT.click();
