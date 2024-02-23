@@ -90,5 +90,8 @@ public class AccountPage {
 			e.printStackTrace();
 		}
 	}
-	
+	public String getAccountAddedSuccessAlertText() {
+		return ACCOUNT_ADDED_ELEMENT.getText();
+
+	}
 	}
